@@ -31,3 +31,4 @@ jobs:
           verb: call 
           module: github.com/shykes/daggerverse/hello
           args: with-greeting --greeting Hola with-name --name Jeremy message
+          engine-stop: 'false'
