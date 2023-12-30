@@ -26,7 +26,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Hello
-        uses: jpadams/dagger-for-github@updates
+        uses: dagger/dagger-for-github@updates
         with:
           verb: call 
           module: github.com/shykes/daggerverse/hello
